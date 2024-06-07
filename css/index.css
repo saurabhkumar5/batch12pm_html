@@ -1,0 +1,52 @@
+/* h1{
+    background-color: purple;
+    color: orange;
+}
+h2{
+    background-color: tomato;
+    color: royalblue;
+} */
+/* h3{
+    background-color: deeppink;
+} */
+
+/* 
+h1{
+    background-color: crimson;
+}
+.momo{
+    background-color: blue;
+}
+#aman{
+    background-color: blueviolet;
+} */
+
+
+
+/* h1{
+    background-color: violet ;
+}
+
+.momo{
+    background-color: brown !important;
+}
+
+#a{
+    background-color: blue;
+} */
+
+
+
+h1{
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: start; */
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+}
+p{
+    /* line-height: 18px; */
+    /* letter-spacing: -2px; */
+}
