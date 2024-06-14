@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: aqua;
+            /* margin-bottom: 20px; */
+            /* margin-right: 50px; */
+            /* display: inline-block; */
+        }
+        #box1{
+            background-color: blueviolet;
+            /* order: 1; */
+            /* flex-grow: 1; */
+        }
+        #box2{
+            background-color: lightcoral;
+            /* order: 2; */
+            /* flex-grow: 1; */
+            flex-shrink: 2;
+        }
+        #box3{
+            background-color: darkslateblue;
+        }
+        #box4{
+            background-color: purple;
+        }
+        .momo{
+            display: flex;
+            /* justify-content: center; */
+            /* justify-content: end; */
+            /* justify-content: flex-end; */
+            /* justify-content: start; */
+            gap: 50px;
+
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* align-items: end; */
+
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+        }
+    </style>
+
+</head>
+<body>
+    
+
+      <div class="momo">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+      </div>
+
+</body>
+</html>
